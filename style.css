@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+   
+}
+header{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+   border: 3px solid rgb(222, 222, 253);
+   background-image: url(01.jpg), url(04.jpg), url(05.jpg), url(09.jpg);
+   animation: slide 20s infinite;
+}
+@keyframes slide{
+    0% {background-image: url(01.jpg);}
+    40% {background-image: url(04.jpg);}
+    70% {background-image: url(05.jpg);}
+    100% {background-image: url(09.jpg);}
+}
+header h1{
+    text-align: center;
+    margin: 10px;
+    padding: 20%;
+    color : rgb(243, 230, 230);
+    font-style: italic;
+     
+     
+}
+.container h3{
+    font-size: medium;
+    text-align: center;
+}
+.container h2{
+    text-align: center;
+}
+.container h6{
+    text-align: center;
+    font-size: medium;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.image-container:hover .overlay {
+    opacity: 1;
+}
+.over{
+    clear: both;
+    display: table;
+    text-align: center;
+    padding: 10px 15px;
+    overflow: hidden;
+}
+.over img{
+    float: left;
+   
+}
+.text h6{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    padding: 10px 15px;
+}
+.text1 {
+    padding: 10px 15px;
+    text-align: center;
+}
+.text1 h2{
+    font-size:xx-large;
+}
+.text1 h4{
+    font-size: medium ;
+}
+ 
+
+.border{
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 5px 10px 15px 10px;
+     border-color: black;
+     background-color: rgb(8, 1, 1);
+     color: white;
+     overflow: hidden;
+     transition: transform 0.3s ease-in-out;
+}
+.border p{
+    text-align: center;
+    font-size: medium;
+    padding: 10px;
+    font-style: italic;
+}
+.border h6{
+    padding: 10px;
+}
+.border h4{
+    color: red;
+}
+.border h5:hover{
+    transform: translateX(20px);
+}
+ 
+.tra{
+    text-align: center;
+    border: 20px solid rgb(248, 243, 243);
+    box-shadow: 10px 15px 10px 15px solid white;
+}
+.tra h5{
+    text-align: center;
+    font-size: medium;
+    padding: 10px;
+}
+.imges{
+    text-align: center;
+    border-radius: 10px 15px 15px 10px white;
+    width: 50%;
+}
+.imges img{
+     border-radius: 60%;
+}
+.imges h6{
+    color: grey;
+    font-size: small;
+}
+.imges h5{
+    color: gray;
+    font-size: medium;
+}
+.imges h3{
+    color: black;
+}
+.small{
+    padding: 10PX 15PX;
+}
+.model{
+    text-align: center;
+    border: 9px solid rgb(247, 242, 242);
+}
+.que{
+    padding: 10px 15px;
+    text-align: center;
+    background-color: black;
+}
+.que h2{
+    color:#f1f1f1;
+}
+.que h6{
+    color: gray;
+}
+ .container-fluid {
+    text-align: center;
+ }
+ .world{
+    padding: 20px 15px
+ }
+ .box{
+    padding: 10px 10px;
+    text-align: center;
+ }
+ .box h2{
+    color: red;
+ }
+ .box p{
+    color: gray;
+ }
+.latest{
+    text-align: center;
+    padding: 10px 15px;
+}
+.latest h1{
+    color:red;
+    font-size: medium;
+}
+.latest p{
+    color: gray;
+}
